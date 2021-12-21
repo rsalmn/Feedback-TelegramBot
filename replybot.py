@@ -20,7 +20,7 @@ def start_callback(update: Update, context: CallbackContext):
 def help_callback(update: Update, context: CallbackContext):
     """Send a message when the command ``/help`` is issued."""
     message = update.message
-    message.reply_text('DEMO Author: William Lee')
+    message.reply_text('DEMO Author: github.com/GarudaProjects/Feedback-TelegramBot')
 
 
 def prepare_params(attachment: TelegramObject, at: str, reply_to_id: int) -> Optional[dict]:
